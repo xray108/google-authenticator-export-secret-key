@@ -1,8 +1,8 @@
 # Google Authenticator Migration Decoder
 
-![Build Status](https://github.com/xray108/google-authenticator-export-secret-key/actions/workflows/build.yml/badge.svg)
+![Build Status](https://github.com/xray108/google-authenticator-export-secret-key/actions/workflows/release.yml/badge.svg)
 
-Утилита для декодирования QR-кодов экспорта из приложения **Google Authenticator**. Позволяет извлечь секретные ключи (TOTP Secret Keys) для переноса их в другие приложения (например, KeePassXC, Bitwarden, 2FAS) или для создания резервной копии.
+Утилита для декодирования QR-кодов экспорта из приложения **Google Authenticator**. Позволяет извлечь секретные ключи (TOTP Secret Keys) для переноса их в другие приложения (например, KeePassXC, Bitwarden, 2FAS, Proton Authentificator) или для создания резервной копии.
 
 ## 🚀 Возможности
 
@@ -14,12 +14,24 @@
 
 ---
 
+
+[![Latest Release](https://img.shields.io/github/v/release/xray108/google-authenticator-export-secret-key?label=Download&style=for-the-badge&color=success)](https://github.com/xray108/google-authenticator-export-secret-key/releases/latest)
+
+## 📥 Скачать
+
+Скачайте готовую версию для вашей системы со страницы **[Releases](https://github.com/xray108/google-authenticator-export-secret-key/releases/latest)**:
+
+* 🖥 **Windows:** `GoogleAuthDecoder-Windows.exe`
+* 🐧 **Linux:** `GoogleAuthDecoder-Linux`
+
+---
+
 ## 📥 Как пользоваться (Windows / Linux)
 
 Вам не нужно устанавливать Python. Вы можете скачать готовую сборку.
 
-1.  Перейдите во вкладку **Actions** в этом репозитории (или в **Releases**, если вы их создали).
-2.  Скачайте артефакт для вашей ОС (`GoogleAuthDecoder.exe` для Windows).
+1.  Перейдите во вкладку **Releases** в этом репозитории.
+2.  Скачайте версию для вашей ОС (`GoogleAuthDecoder-Windows.exe` для Windows).
 3.  Подготовьте скриншот QR-кода экспорта (см. инструкцию ниже).
 4.  Запустите программу.
 5.  **Перетащите файл картинки** в окно консоли и нажмите Enter.
@@ -34,7 +46,7 @@
 1.  **Клонируйте репозиторий:**
     ```bash
     git clone [https://github.com/xray108/google-authenticator-export-secret-key.git](https://github.com/xray108/google-authenticator-export-secret-key.git)
-    cd ВАШ_РЕПОЗИТОРИЙ
+    cd google-authenticator-export-secret-key
     ```
 
 2.  **Установите зависимости:**
